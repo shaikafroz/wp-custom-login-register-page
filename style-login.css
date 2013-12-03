@@ -93,3 +93,19 @@ body.login div#login form#lostpasswordform input[type=password]{
 body.login div#login form#lostpasswordform p {
 	color: #fff;
 }
+/*------------ curtesy ----------*/
+
+body.login div#login p#nav {
+	text-shadow: none ! important;
+	color: #247EA7 ! important;
+}
+
+body.login div#login p#nav a {
+	text-shadow: none ! important;
+	color: #247EA7 ! important;
+}
+
+body.login div#login p#backtoblog a {
+	text-shadow: none !important;
+	color: #247EA7 ! important;
+}
