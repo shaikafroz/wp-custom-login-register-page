@@ -61,7 +61,7 @@ function my_login_logo_url_title() {
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
 function my_login_stylesheet() { ?>
-    <link rel="stylesheet" id="custom_wp_admin_css"  href="<?php echo get_bloginfo('url') . '/wp-content/plugins/wp-custom-login/style-login.css'; ?>" type="text/css" media="all" />
+    <link rel="stylesheet" id="custom_wp_admin_css"  href="<?php echo get_bloginfo('url') . '/wp-content/plugins/wp-custom-login-register-page/style-login.css'; ?>" type="text/css" media="all" />
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_stylesheet' );
 
@@ -78,7 +78,7 @@ function n_login_css() {
 		</style>';
 	}else{
 		echo '<style type="text/css">
-		#login h1 a { background: url('.get_bloginfo("url").'/wp-content/plugins/wp-custom-login/images/logo.png) no-repeat; }
+		#login h1 a { background: url('.get_bloginfo("url").'/wp-content/plugins/wp-custom-login-register-page/images/logo.png) no-repeat; }
 		</style>';
 	}
 
@@ -91,7 +91,7 @@ function n_login_css() {
 		</style>';
 	}else{
 		echo '<style type="text/css">
-		html { background: url('.get_bloginfo("url").'/wp-content/plugins/wp-custom-login/images/bg1.jpg) no-repeat 50% 50% fixed;
+		html { background: url('.get_bloginfo("url").'/wp-content/plugins/wp-custom-login-register-page/images/bg1.jpg) no-repeat 50% 50% fixed;
 		background-size: 100% auto;
 		}
 		</style>';
