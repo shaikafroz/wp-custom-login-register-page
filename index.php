@@ -2,7 +2,7 @@
 /*
 Plugin Name: wp custom login
 Plugin URI: http://niaj.me
-Description: This is my first plugin to learn development of plugin.
+Description: This is the plugin will help you to customize your login & register page.
 Author: Niaj Morshed
 Author URI: http://niaj.me
 Version: 1.0
