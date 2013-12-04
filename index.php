@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: wp custom login
+Plugin Name: wp custom-login
 Plugin URI: http://niaj.me
 Description: This is the plugin will help you to customize your login & register page.
 Author: Niaj Morshed
