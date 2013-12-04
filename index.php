@@ -74,11 +74,11 @@ function n_login_css() {
 	if($n_logo_link != '')
 	{
 		echo '<style type="text/css">
-		#login h1 a { background: url('.$n_logo_link.') no-repeat;}
+		#login h1 a { background: url('.$n_logo_link.')  no-repeat scroll 50% 50% transparent;}
 		</style>';
 	}else{
 		echo '<style type="text/css">
-		#login h1 a { background: url('.get_bloginfo("url").'/wp-content/plugins/wp-custom-login-register-page/images/logo.png) no-repeat; }
+		#login h1 a { background: url('.get_bloginfo("url").'/wp-content/plugins/wp-custom-login-register-page/images/logo.png)  no-repeat scroll 50% 50% transparent; }
 		</style>';
 	}
 
