@@ -2,7 +2,7 @@
 Contributors: Niaj Morshed
 Tags: login, admin, image, logo
 Requires at least: 2.7
-Tested up to: 3.7
+Tested up to: 3.8
 Stable tag: 1.1
 
 This plugin can changes the logo & background image of the login form.

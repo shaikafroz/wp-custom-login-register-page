@@ -5,7 +5,7 @@ Plugin URI: http://niaj.me
 Description: This is the plugin will help you to customize your login & register page.
 Author: Niaj Morshed
 Author URI: http://niaj.me
-Version: 1.0
+Version: 1.0.1
 licence: GNU General Public License (GPL) version 2.
 */
 
